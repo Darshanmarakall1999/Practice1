@@ -20,3 +20,6 @@ containers:
 image: nginx:latest
 ports:
 - containerPort: 80
+
+-----------------------------
+kubectl delete -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
